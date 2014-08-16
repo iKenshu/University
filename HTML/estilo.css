@@ -1,0 +1,31 @@
+body{
+	margin: 0;
+	font-size: 16px;
+	background-color: #00C6FF;
+	color: #212121;
+}
+h1{
+	text-shadow: 0.5px 2px 2px;
+	text-align: center;
+}
+.form{
+	margin-left: 2.5%;
+}
+.Boton{
+	font-size: 20px;
+	color: #FFF;
+	border-radius: 5px 3px 5px;
+	border: 0px;
+	background-color: #212121;
+	height: 10%;
+	width: 15%;
+
+}
+.Boton:hover{
+	cursor: pointer;
+	background-color: #21BBFF;
+	transition: 1s;
+	height: 10%;
+	width: 15%;
+	color: #212121;
+}

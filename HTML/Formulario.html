@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="estilo.css">
+	<title>Formulario</title>
+</head>
+<body>
+	<h1>Formulario</h1>
+	<form class="form" action="mailto: una prueba" method="POST">
+		Nombre: <input type="text" name="Nombre" placeholder="Introduce tu Nombre" autofocus required><br>
+		Contraseña: <input type="password" name="Contraseña" placeholder="Introduce tu Contraseña"  required><br>
+		Email <input type="email" name="Correo" placeholder="correo@correo.com"><br>
+		Fecha de Nacimiento: <input type="Date" name="Fecha"> <br>
+		Elige tu sexo:	
+		<input type="radio" name="Sexo" value="H">Hombre
+		<input type="radio" name="Sexo" value="M">Mujer<br>
+		<input type="checkbox" name="Moto" value="Si">Moto<br>
+		Selecciona un pais: <select name="paises">
+			<option>Brasil</option>
+			<option>Alemania</option>
+			<option>Argentina</option>
+			<option>Holanda</option>
+		</select>
+		<svg width="300" height="200">
+  			<polygon points="100,10 40,198 190,78 10,78 160,198"
+  			style="fill:lime;stroke:purple;stroke-width:5;fill-rule:evenodd;" />
+		</svg>
+		<input type="checkbox" name="Carro" value="checked">Carro<br>
+		<input class="Boton" type="submit" value="Enviar">
+		<input class="Boton" type="reset">
+	</form> 
+</body>
+</html>
+
